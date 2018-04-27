@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/hinhnen3"
+    tools:context="com.quekhithe.problem9viewpagerwithfragment.Tab2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/showbiz5" />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Cát-xê tấu hài 10 phút của Hoài Linh, Trấn Thành ngày Tết lên đến vài trăm triệu đồng"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/hinh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/showbiz1" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hinh1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/hinh1"
+                android:text="Phạm Băng Băng, Lý Thần ấn định thời gian cho đám cưới thế kỷ"
+                android:id="@+id/textView2" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/hinh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/showbiz3" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/hinh2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/hinh2"
+                android:text="Cuộc sống không như mơ bên Mỹ của bé Xuân Mai"
+                android:id="@+id/textView3" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
